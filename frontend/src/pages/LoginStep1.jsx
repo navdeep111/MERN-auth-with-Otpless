@@ -60,11 +60,11 @@ function LoginStep1() {
     <div className="p-6 bg-white rounded-lg max-w-md mx-auto">
       <div className="text-center mb-8">
         <div className="font-Montserrat text-2xl font-bold leading-10 text-[#1A1C1F]">
-          Welcome Back
+          
         </div>
         <div className="text-[#1A1C1F] font-medium text-[14px] mt-1 sm:text-[14px]">
           Welcome back to{" "}
-          <span className="text-[#E40443] font-semibold">DOOPER</span>, please
+          <span className="text-[#85e7a7] font-semibold">Secure Sign</span>, please
           log in to continue
         </div>
       </div>
@@ -154,7 +154,7 @@ function LoginStep1() {
           <hr className="flex-1 bg-[#B8BFC7] h-[1px]" />
         </div>
 
-        <SecondaryButton title="Signup" action={() => navigate("/signup")} />
+        <SecondaryButton title="SignupStep1" action={() => navigate("/SignupStep1")} />
 
         <div className="text-center mt-4 text-[#5B6572] text-sm font-normal">
           Don't have an account? Sign up to access your personalized dashboard
